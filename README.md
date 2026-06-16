@@ -8,7 +8,7 @@ A Swift app that gives you a clean and simple UI to use Ollama on macOS.
 * Clean native SwiftUI for a seamless integration.
 
 ## Requirements
-* **Xcode**: compatible with macOS 14+ (or your current version)
+* **Xcode**: compatible with macOS 26+ (or your current version)
 * **Ollama**: recommended model --> gemma4:e2b
 
 ## Setup and Build
