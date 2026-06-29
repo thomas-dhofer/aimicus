@@ -35,7 +35,9 @@ struct chatBubbleView: View {
                     Color.clear
                         .contentShape(Rectangle())
                 )
-                .glassEffect() 
+                .glassEffect()
+
+
             
             
             Button{
@@ -71,12 +73,16 @@ struct chatBubbleView: View {
                         .padding()
                         .contentShape(Rectangle())
                         .glassEffect()
+
+
                 }
                 else{
                     Image(systemName: "checkmark")
                         .padding()
                         .contentShape(Rectangle())
                         .glassEffect()
+
+
                 }
             }
             .buttonStyle(.plain)
