@@ -13,21 +13,19 @@ struct aimicusApp: App {
     var body: some Scene {
         
             MenuBarExtra("aimicus", systemImage: "circle.hexagonpath.fill") {
+                
             VStack(){
-                                
-                headerView()
-                
-                Divider()
-                
-                
+                            
                 chatBubbleView()
                     
             }
             .padding(10)
             .background(.ultraThinMaterial)
+
                 
         }
-        .menuBarExtraStyle(.window)
+            .menuBarExtraStyle(.window)
+
     }
     
 }

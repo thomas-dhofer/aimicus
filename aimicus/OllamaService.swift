@@ -15,9 +15,9 @@ class OllamaService {
         let content: String
     }
 
-    private var chatHistory: [ChatMessage] = []
+    static private var chatHistory: [ChatMessage] = []
     
-    func sendToOllama(_ text: String) async -> AttributedString{
+    static func sendToOllama(_ text: String) async -> AttributedString{
         
         var req = URLRequest(url: URL(string: "http://127.0.0.1:11434/api/chat")!)
         req.httpMethod = "POST"
@@ -50,5 +50,5 @@ class OllamaService {
         
         return ""
     }
-    
+
 }

@@ -20,7 +20,7 @@ struct chatBubbleView: View {
     
     @State var disabled = false
     
-    private var ollama:OllamaService = OllamaService()
+    @State var eyesClosed = false
 
     var body: some View {
             
@@ -37,7 +37,6 @@ struct chatBubbleView: View {
                 )
                 .glassEffect()
 
-
             
             
             Button{
@@ -52,7 +51,7 @@ struct chatBubbleView: View {
                     
                     Task{
                         disabled = true
-                        answer = await ollama.sendToOllama(trimmed)
+                        answer = await OllamaService.sendToOllama(trimmed)
 
                         
                         if answer != "" {
