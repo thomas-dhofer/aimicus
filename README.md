@@ -1,7 +1,7 @@
 # aimicus
 A Swift app that gives you a clean and simple UI to use Ollama on macOS.
 
-<img width="1280" height="720" alt="Dokument" src="https://github.com/user-attachments/assets/f1ceaaed-bd66-4a0b-9f4c-47a9f86187ec" />
+<img width="1280" height="720" alt="aimicus" src="https://github.com/user-attachments/assets/33624219-2fd5-4e15-9a16-60216e3ab509" />
 
 ## Features
 * Runs discreetly as a `MenuBarExtra` in your macOS menu bar for easy accessibility.
