@@ -85,6 +85,7 @@ struct chatBubbleView: View {
                 }
             }
             .buttonStyle(.plain)
+            .glassEffect()
             .disabled(disabled)
         }
         .frame(width: 400)
