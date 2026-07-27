@@ -1,60 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "Ohne Titel 9.png",
+      "filename" : "Icon-iOS-Default-16x16@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "Ohne Titel 8.png",
+      "filename" : "Icon-iOS-Default-32x32@1x 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "Ohne Titel 7.png",
+      "filename" : "Icon-iOS-Default-32x32@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "Ohne Titel 6.png",
+      "filename" : "Icon-iOS-Default-64x64@1x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "Ohne Titel 5.png",
+      "filename" : "Icon-iOS-Default-128x128@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "Ohne Titel 4.png",
+      "filename" : "Icon-iOS-Default-256x256@1x 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "Ohne Titel 3.png",
+      "filename" : "Icon-iOS-Default-256x256@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "Ohne Titel 2.png",
+      "filename" : "Icon-iOS-Default-512x512@1x 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "Ohne Titel 1.png",
+      "filename" : "Icon-iOS-Default-512x512@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "Icon-iOS-Default-1024x1024@1x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
