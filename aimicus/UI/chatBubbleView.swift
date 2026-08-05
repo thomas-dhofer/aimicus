@@ -2,7 +2,7 @@
 //  chatBubbleView.swift
 //  aimicus
 //
-//  Created by Thomas Dornhofer on 08.06.26.
+//  Created by Thomas on 08.06.26.
 //
 
 import SwiftUI
@@ -70,22 +70,18 @@ struct chatBubbleView: View {
                 if isPresented == true{
                     Image(systemName: "xmark")
                         .padding()
-                        .contentShape(Rectangle())
+                        .contentShape(Circle())
                         .glassEffect()
-
-
                 }
+                
                 else{
                     Image(systemName: "checkmark")
                         .padding()
-                        .contentShape(Rectangle())
+                        .contentShape(Circle())
                         .glassEffect()
-
-
                 }
             }
             .buttonStyle(.plain)
-            .glassEffect()
             .disabled(disabled)
         }
         .frame(width: 400)

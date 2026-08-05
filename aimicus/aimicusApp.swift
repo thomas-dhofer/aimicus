@@ -2,7 +2,7 @@
 //  aimicusApp.swift
 //  aimicus
 //
-//  Created by Thomas Dornhofer on 24.03.26.
+//  Created by Thomas on 24.03.26.
 //
 
 import SwiftUI

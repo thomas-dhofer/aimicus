@@ -2,7 +2,7 @@
 //  ollamaCall.swift
 //  aimicus
 //
-//  Created by Thomas Dornhofer on 09.06.26.
+//  Created by Thomas on 09.06.26.
 //
 
 import Foundation
