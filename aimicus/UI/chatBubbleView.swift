@@ -70,18 +70,16 @@ struct chatBubbleView: View {
                 if isPresented == true{
                     Image(systemName: "xmark")
                         .padding()
-                        .contentShape(Circle())
-                        .glassEffect()
                 }
                 
                 else{
                     Image(systemName: "checkmark")
                         .padding()
-                        .contentShape(Circle())
-                        .glassEffect()
                 }
             }
             .buttonStyle(.plain)
+            .glassEffect(.regular.tint(.green.opacity(0.8)))
+            .foregroundStyle(.black)
             .disabled(disabled)
         }
         .frame(width: 400)

@@ -21,8 +21,7 @@ struct aimicusApp: App {
             }
             .padding(10)
             .background(.ultraThinMaterial)
-
-                
+            
         }
             .menuBarExtraStyle(.window)
 
