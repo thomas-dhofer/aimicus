@@ -8,7 +8,7 @@
 import Foundation
 
 @Observable
-class OllamaService {
+class OllamaAPIService {
     
     struct ChatMessage: Codable {
         let role: String
@@ -16,8 +16,8 @@ class OllamaService {
     }
 
     static private var chatHistory: [ChatMessage] = []
-    
-    static func sendToOllama(_ text: String) async -> AttributedString{
+        
+    static func sendToOllama(text: String, model: String) async -> AttributedString{
         
         var req = URLRequest(url: URL(string: "http://127.0.0.1:11434/api/chat")!)
         req.httpMethod = "POST"
@@ -31,7 +31,7 @@ class OllamaService {
         let messagesJson = chatHistory.map { ["role": $0.role, "content": $0.content] }
         
         req.httpBody = try? JSONSerialization.data(withJSONObject: [
-            "model": "gemma4:e2b",
+            "model": model,
             "messages": messagesJson,
             "stream": false
         ])

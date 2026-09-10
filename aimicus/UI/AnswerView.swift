@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct chatView: View {
+struct AnswerView: View {
     
     
     @State private var aktuelleDrehung: Double = 0.0
@@ -49,5 +49,5 @@ struct chatView: View {
 }
 
 #Preview {
-    chatView(show: true, outTxt: "Hi")
+    AnswerView(show: true, outTxt: "Hi")
 }

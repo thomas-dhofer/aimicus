@@ -16,7 +16,7 @@ struct aimicusApp: App {
                 
             VStack(){
                             
-                chatBubbleView()
+                ChatView()
                     
             }
             .padding(10)
