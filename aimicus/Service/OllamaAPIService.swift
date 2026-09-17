@@ -29,7 +29,7 @@ class OllamaAPIService {
         }
 
         let messagesJson = chatHistory.map { ["role": $0.role, "content": $0.content] }
-        
+                
         req.httpBody = try? JSONSerialization.data(withJSONObject: [
             "model": model,
             "messages": messagesJson,

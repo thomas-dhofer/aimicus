@@ -12,6 +12,8 @@ struct ChatView: View {
     
     @Environment(\.colorScheme) var colorScheme
     
+    @AppStorage("selectedModel") private var model: String = ""
+
     @State var question = ""
         
     @State private var isPresented = false
@@ -21,9 +23,7 @@ struct ChatView: View {
     @State var show = false
     
     @State var disabled = false
-    
-    @State var model = ""
-    
+        
     @State var models: [String] = []
 
     var body: some View {
